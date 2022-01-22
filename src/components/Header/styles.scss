@@ -1,0 +1,30 @@
+$small: 300px;
+$medium: 900px;
+
+.header_container {
+  max-width: 870px;
+  margin: auto;
+  display: flex;
+  height: 53px;
+  flex-direction: row;
+  align-items: center;
+
+  .header_title {
+    color: #252525;
+    font-weight: bold;
+    font-size: 18px;
+  }
+
+
+  @media screen and (max-width: $small) {
+    max-width: 100%;
+  }
+  @media screen and (min-width: $medium) {
+    max-width: 870px;
+  }
+}
+
+.header_wrapper {
+  background-color: #f8f8f8;
+  border-bottom: solid 1px #e0e0e0;
+}

@@ -1,0 +1,15 @@
+$small: 300px;
+$medium: 900px;
+
+.container_page {
+  max-width: 870px;
+  margin: auto;
+
+
+  @media screen and (max-width: $small) {
+    max-width: 100%;
+  }
+  @media screen and (min-width: $medium) {
+    max-width: 870px;
+  }
+}
